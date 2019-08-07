@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	padding: 50px;
+	text-align: center;
+	background: black;
+}
+
+h1{
+	color: white;
+	margin-bottom: 50px;
+}
+
+#graficoN{
+	width: 700px;
+	margin: 0 auto;
+}
+
+ul{
+	position: absolute;
+	top: 130px;
+	left: 300px;
+	list-style: none;
+	text-align: left;
+}
+
+li{
+	color: white;
+	font-size: 1.5em;
+	position: relative;
+}
+
+li .tooltiptext {
+	display: none;
+	width: 120px;
+	background-color: white;
+	color: black;;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	position: absolute;
+	top: 15px;
+  left: 125px; 
+	z-index: 1;
+}
+  
+li:hover .tooltiptext {
+	display: block;
+}
+
+li div{
+	width: 50px;
+	height: 50px;
+}
+
+.muybajo{
+	background-color: #0008E6;
+}
+
+.bajo{
+	background-color: #00FFFF;
+}
+
+.promedio{
+	background-color: #7CAD00;
+}
+
+.alto{
+	background-color: #FEA90D;
+}
+
+.muyalto{
+	background-color: #fd5f00;
+}
